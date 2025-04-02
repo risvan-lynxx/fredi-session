@@ -57,18 +57,8 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Fredie_Tech.sendMessage(Pair_Code_By_Fredie_Tech.user.id, { text: '' + b64data });
 
                let FREDI_TECH_TEXT = `
-✧LUCKY MD DEVICE SUCCESSFUL CONNECTED✧
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-🤦  Creator ☞ ✧FREDI EZRA✧
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-🫂  WhattsApp Channel ☞ https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-🥂 Contact Owne ☞ https://wa.me/255752593977
-FREDIETECH
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-> ©*FREDIE TECH 2025 SCRIPT*
-
-_Don't Forget To Give Star To My Repo_`
+✧SESSION SUCCESSFUL CONNECTED✧
+`
  await Pair_Code_By_Fredie_Tech.sendMessage(Pair_Code_By_Fredie_Tech.user.id,{text:FREDI_TECH_TEXT},{quoted:session})
  
 
